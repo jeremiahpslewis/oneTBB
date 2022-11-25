@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2005-2021 Intel Corporation
+    Copyright (c) 2005-2022 Intel Corporation
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -132,8 +132,8 @@ bool timed_spin_wait_until(Condition condition) {
 }
 
 template <typename T>
-T clamp(T value, T lower_bound, T higher_bound) {
-    return value > lower_bound ? (value > higher_bound ? higher_bound : value) : lower_bound;
+T clamp(T value, T lower_bound, T upper_bound) {
+    return value > lower_bound ? (value > upper_bound ? upper_bound : value) : lower_bound;
 }
 
 template <typename T>
