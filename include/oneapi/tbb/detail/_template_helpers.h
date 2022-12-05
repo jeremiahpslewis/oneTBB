@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2005-2021 Intel Corporation
+    Copyright (c) 2005-2022 Intel Corporation
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -401,4 +401,3 @@ using type_identity_t = typename type_identity<T>::type;
 } // namespace tbb
 
 #endif // __TBB_detail__template_helpers_H
-
